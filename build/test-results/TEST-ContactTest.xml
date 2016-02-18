@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ContactTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2016-02-18T22:26:28" hostname="epicodus-64.local" time="0.002">
+  <properties/>
+  <testcase name="getPhones_initiallyReturnsEmptyArrayList" classname="ContactTest" time="0.001"/>
+  <testcase name="getNameAndRelation_returnsFirstNameLastNameRelation_true" classname="ContactTest" time="0.0"/>
+  <testcase name="find_returnsContactWothSameId" classname="ContactTest" time="0.0"/>
+  <testcase name="all_returnsAllInstancesOfContact_true" classname="ContactTest" time="0.0"/>
+  <testcase name="clear_removesAllContactInstancesFromMemory" classname="ContactTest" time="0.0"/>
+  <testcase name="getId_returnsContactId" classname="ContactTest" time="0.0"/>
+  <testcase name="addPhoneNumbertoContactObject" classname="ContactTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
