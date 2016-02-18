@@ -18,5 +18,5 @@ public class AppTest extends FluentTest {
   public static ServerRule server = new ServerRule();
 
 
-  //Tests go here
+
 }

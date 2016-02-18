@@ -28,5 +28,28 @@ public class PhoneTest {
     assertTrue(Phone.all().contains(testPhoneOne));
     assertTrue(Phone.all().contains(testPhoneTwo));
   }
+  @Test
+  public void newId_todosInstantiateWithAnID_true() {
+    Phone testPhone = new Phone("123-456-7891", "Cell");
+    assertEquals(Phone.all().size(), testPhone.getId());
+  }
 
+  @Test
+  public void find_returnsPhoneWithSameId_multiple() {
+    Phone testPhone = new Phone("123-456-7891", "Cell");
+    Phone testPhoneTwo = new Phone("145-345-3241", "Home");
+    assertEquals(Phone.find(testPhoneTwo.getId()), testPhoneTwo);
+  }
+
+  @Test
+  public void find_returnsNullWhenNoToDoFound_null() {
+    assertTrue(Phone.find(999) == null);
+  }
+
+  @Test
+  public void clear_emptiesAllToDosFromArrayList() {
+    Phone testPhone = new Phone("123-123-1232", "Cell");
+    Phone.clear();
+    assertEquals(Phone.all().size(), 0);
+  }
 }
