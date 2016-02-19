@@ -1,0 +1,15 @@
+<h3>Add a new phone number for $contact.getFullName()</h3>
+
+<form action="/phones" method="post">
+  <input id="contactId" name="contactId" type="hidden" value="$contact.getId()">
+
+  <div class="form-group">
+    <label for="phoneNumber">Phone number:</label>
+    <input id="phoneNumber" name="phoneNumber" type="text" class="form-control">
+
+    <label for="phoneType">Phone type:</label>
+    <input id="phoneType" name="phoneType" type="text" class="form-control">
+  </div>
+
+  <button type="submit" class="btn btn-success">Add Phone Number</button>
+</form>

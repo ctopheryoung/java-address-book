@@ -27,6 +27,10 @@ public class Contact {
     return mLastName;
   }
 
+  public String getFullName() {
+    return mFirstName + " " + mLastName;
+  }
+
   public String getRelation() {
     return mRelation;
   }

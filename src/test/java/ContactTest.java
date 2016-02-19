@@ -23,6 +23,12 @@ public class ContactTest {
   }
 
   @Test
+  public void getFullName_returnsFirstNameAndLastName() {
+    Contact testContact = new Contact("Bill", "Murray", "Friend");
+    assertEquals("Bill Murray", testContact.getFullName());
+  }
+
+  @Test
   public void getPhones_initiallyReturnsEmptyArrayList() {
     Contact testContact = new Contact("Bill", "Murray", "Friend");
     assertTrue(testContact.getPhones() instanceof ArrayList);

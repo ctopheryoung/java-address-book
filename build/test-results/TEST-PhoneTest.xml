@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="PhoneTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2016-02-18T22:43:51" hostname="epicodus-64.local" time="0.004">
+<testsuite name="PhoneTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2016-02-18T23:29:44" hostname="epicodus-64.local" time="0.001">
   <properties/>
   <testcase name="getPhoneNumberAndType_returnsPhoneNumberAndType_true" classname="PhoneTest" time="0.0"/>
-  <testcase name="find_returnsNullWhenNoToDoFound_null" classname="PhoneTest" time="0.001"/>
+  <testcase name="find_returnsNullWhenNoToDoFound_null" classname="PhoneTest" time="0.0"/>
   <testcase name="find_returnsPhoneWithSameId_multiple" classname="PhoneTest" time="0.0"/>
   <testcase name="all_returnsAttInstancesOfPhone_true" classname="PhoneTest" time="0.0"/>
-  <testcase name="newId_todosInstantiateWithAnID_true" classname="PhoneTest" time="0.001"/>
+  <testcase name="newId_todosInstantiateWithAnID_true" classname="PhoneTest" time="0.0"/>
   <testcase name="clear_emptiesAllToDosFromArrayList" classname="PhoneTest" time="0.0"/>
   <testcase name="phone_instantiatesCorrectly_true" classname="PhoneTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
